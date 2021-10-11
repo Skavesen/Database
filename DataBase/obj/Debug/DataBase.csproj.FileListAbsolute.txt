@@ -1,0 +1,345 @@
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\DataBase.exe.config
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\DataBase.exe
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\DataBase.pdb
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\Npgsql.dll
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\System.Buffers.dll
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\System.Memory.dll
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\System.Threading.Tasks.Extensions.dll
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\System.ValueTuple.dll
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\Npgsql.pdb
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\Npgsql.xml
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\System.Buffers.xml
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\System.Memory.xml
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\System.Threading.Tasks.Extensions.xml
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\bin\Debug\System.ValueTuple.xml
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.exe
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.pdb
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.DB.resources
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.Login.resources
+c:\users\вадим\documents\visual studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.Registration.resources
+C:\Users\Вадим\documents\visual studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.Add_information.resources
+C:\Users\Вадим\Documents\Visual Studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.Querys.resources
+C:\Users\Вадим\Documents\Visual Studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.Photo.resources
+C:\Users\Вадим\Documents\Visual Studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.Graphics.resources
+C:\Users\Вадим\Documents\Visual Studio 2017\Projects\DataBase\DataBase\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\Вадим\Documents\Visual Studio 2017\Projects\DataBase\DataBase\obj\Debug\Interop.AdobePDFMakerForOffice.dll
+C:\Users\Вадим\Documents\Visual Studio 2017\Projects\DataBase\DataBase\obj\Debug\Interop.OSppWmiProviderLibrary.dll
+C:\Users\Вадим\Documents\Visual Studio 2017\Projects\DataBase\DataBase\obj\Debug\Interop.TFCOfficeShimLib.dll
+C:\Users\Вадим\Documents\Visual Studio 2017\Projects\DataBase\DataBase\obj\Debug\Interop.UCAddinLib.dll
+C:\Users\Вадим\Documents\Visual Studio 2017\Projects\DataBase\DataBase\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\Вадим\Documents\Visual Studio 2017\Projects\DataBase\DataBase\obj\Debug\Interop.VSTOEE90.dll
+C:\Users\Вадим\Documents\Visual Studio 2017\Projects\DataBase\DataBase\obj\Debug\DataBase.csproj.ResolveComReference.cache
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\DataBase.exe.config
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\Npgsql.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\System.Buffers.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\System.Memory.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\System.ValueTuple.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\Npgsql.pdb
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\Npgsql.xml
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\System.Buffers.xml
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\System.Memory.xml
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Вадим\Desktop\DataBase\DataBase\bin\Debug\System.ValueTuple.xml
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\Interop.AdobePDFMakerForOffice.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\Interop.OSppWmiProviderLibrary.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\Interop.TFCOfficeShimLib.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\Interop.UCAddinLib.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\Interop.VSTOEE90.dll
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.csproj.ResolveComReference.cache
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.Add_information.resources
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.DB.resources
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.Graphics.resources
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.Login.resources
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.Photo.resources
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.Querys.resources
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.Registration.resources
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\DataBase\DataBase\obj\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\DataBase.exe.config
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\Npgsql.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\System.Buffers.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\System.Memory.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\System.ValueTuple.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\Npgsql.pdb
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\Npgsql.xml
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\System.Buffers.xml
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\System.Memory.xml
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\bin\Debug\System.ValueTuple.xml
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\Interop.AdobePDFMakerForOffice.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\Interop.OSppWmiProviderLibrary.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\Interop.TFCOfficeShimLib.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\Interop.UCAddinLib.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\Interop.VSTOEE90.dll
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\DataBase.csproj.ResolveComReference.cache
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\DataBase.Add_information.resources
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\DataBase.DB.resources
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\DataBase.Graphics.resources
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\DataBase.Photo.resources
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\DataBase.Querys.resources
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Пишванов\DataBase\DataBase\obj\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\DataBase.exe.config
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\Npgsql.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\System.Buffers.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\System.Memory.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\System.ValueTuple.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\Npgsql.pdb
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\Npgsql.xml
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\System.Buffers.xml
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\System.Memory.xml
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\bin\Debug\System.ValueTuple.xml
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\Interop.AdobePDFMakerForOffice.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\Interop.OSppWmiProviderLibrary.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\Interop.TFCOfficeShimLib.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\Interop.UCAddinLib.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\Interop.VSTOEE90.dll
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\DataBase.csproj.ResolveComReference.cache
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\DataBase.Add_information.resources
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\DataBase.DB.resources
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\DataBase.Graphics.resources
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\DataBase.Photo.resources
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\DataBase.Querys.resources
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Пишванов\Пишванов\DataBase\obj\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\DataBase.exe.config
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\Npgsql.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\System.Buffers.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\System.Memory.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\System.ValueTuple.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\Npgsql.pdb
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\Npgsql.xml
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\System.Buffers.xml
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\System.Memory.xml
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\bin\Debug\System.ValueTuple.xml
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\Interop.AdobePDFMakerForOffice.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\Interop.OSppWmiProviderLibrary.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\Interop.TFCOfficeShimLib.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\Interop.UCAddinLib.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\Interop.VSTOEE90.dll
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\DataBase.csproj.ResolveComReference.cache
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\DataBase.Add_information.resources
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\DataBase.DB.resources
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\DataBase.Graphics.resources
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\DataBase.Photo.resources
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\DataBase.Querys.resources
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Песков\Песков\DataBase\obj\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\DataBase.exe.config
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\Npgsql.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Buffers.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Memory.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\System.ValueTuple.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\Npgsql.pdb
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\Npgsql.xml
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Buffers.xml
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Memory.xml
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\bin\Debug\System.ValueTuple.xml
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.AdobePDFMakerForOffice.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.OSppWmiProviderLibrary.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.TFCOfficeShimLib.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.VSTOEE90.dll
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.csproj.ResolveComReference.cache
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.Add_information.resources
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.DB.resources
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.Graphics.resources
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.Photo.resources
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.Querys.resources
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.pdb
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\DataBase.exe.config
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\DataBase.exe
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\DataBase.pdb
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\Npgsql.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Buffers.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Memory.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\System.ValueTuple.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\Npgsql.pdb
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\Npgsql.xml
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Buffers.xml
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Memory.xml
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\bin\Debug\System.ValueTuple.xml
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.ACTIVEXLib.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.AdobePDFMakerForOffice.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.OSppWmiProviderLibrary.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.TFCOfficeShimLib.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.UCAddinLib.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.VSTOEE100.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\Interop.VSTOEE90.dll
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.csproj.ResolveComReference.cache
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.Add_information.resources
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.DB.resources
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.Graphics.resources
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.Photo.resources
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.Querys.resources
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.exe
+D:\Универ\Курсачи\4 семестр\Воробьёв\Воробьёв\DataBase\obj\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\DataBase.exe.config
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\Npgsql.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\System.Buffers.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\System.Memory.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\System.ValueTuple.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\Npgsql.pdb
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\Npgsql.xml
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\System.Buffers.xml
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\System.Memory.xml
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\bin\Debug\System.ValueTuple.xml
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\Interop.AdobePDFMakerForOffice.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\Interop.OSppWmiProviderLibrary.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\Interop.TFCOfficeShimLib.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\Interop.VSTOEE90.dll
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.csproj.ResolveComReference.cache
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.Add_information.resources
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.DB.resources
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.Graphics.resources
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.Querys.resources
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.Login.resources
+C:\Users\Вадим\Desktop\Курсач\Программа\DataBase\obj\Debug\DataBase.Admin.resources
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\DataBase.exe.config
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\Npgsql.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\System.Buffers.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\System.Memory.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\System.ValueTuple.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\Npgsql.pdb
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\Npgsql.xml
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\System.Buffers.xml
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\System.Memory.xml
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\bin\Debug\System.ValueTuple.xml
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\Interop.ACTIVEXLib.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\Interop.AdobePDFMakerForOffice.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\Interop.OSppWmiProviderLibrary.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\Interop.TFCOfficeShimLib.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\Interop.VSTOEE100.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\Interop.VSTOEE90.dll
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.csproj.ResolveComReference.cache
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.Add_information.resources
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.Admin.resources
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.Graphics.resources
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.Login.resources
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.Querys.resources
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.exe
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.pdb
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.Comp_employee.resources
+C:\Users\Вадим\Desktop\Дидур\Программа\DataBase\obj\Debug\DataBase.Kind_employee.resources
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\DataBase.exe.config
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\DataBase.exe
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\DataBase.pdb
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\Npgsql.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\System.Buffers.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\System.Memory.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\System.ValueTuple.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\Npgsql.pdb
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\Npgsql.xml
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\System.Buffers.xml
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\System.Memory.xml
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\bin\Debug\System.ValueTuple.xml
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.csprojResolveAssemblyReference.cache
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\Interop.ACTIVEXLib.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\Interop.AdobePDFMakerForOffice.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\Interop.OSppWmiProviderLibrary.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\Interop.TFCOfficeShimLib.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\Interop.VSTOEE100.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\Interop.VSTOEE90.dll
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.csproj.ResolveComReference.cache
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Add_information.resources
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Admin.resources
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Comp_employee.resources
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Graphics.resources
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Kind_employee.resources
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Login.resources
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Properties.Resources.resources
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Querys.resources
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.exe
+D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.pdb
