@@ -13,265 +13,11 @@ namespace DataBase
     {
         private NpgsqlConnection npgSqlConnection;
         NpgsqlCommand sqlCommand;
-        DataTable dt;
-        NpgsqlDataReader dataReader;
-        //string connectionString = "Server = localhost;" + "Port = 5432;" + "Database = Дидур;" + "User Id = postgres;" + "Password = vadim;";подключение для генерации пользователей
-        private string sql = "";
-        String id = "";//id для справочников
-        string connectionString = "";
-        public Comp_employee(string usersurname, string userpassword)
+        string connectionString = "Server = localhost;" + "Port = 5432;" + "Database = Дидур;" + "User Id = postgres;" + "Password = postgres;";
+        public Comp_employee()
         {
             InitializeComponent();
-            this.usersurname = usersurname;
-            this.userpassword = userpassword;
-            Text = "Пользователь " + usersurname;
-            button2.Visible = false;
-            label2.Text = "Обновить данные";
-            //label1.Text = "сотрудник детского сада";//label1.Text = "сотрудник предприятия";поле для генерации
-            connectionString = "Server = localhost;" + "Port = 5432;" + "Database = Дидур;" + "User Id = '" + usersurname + "';" + "Password = '" + userpassword + "';";
-        }
-        private string usersurname;
-        private string userpassword;
-        /// <summary>
-        /// Метод вычисления количества ячеек в таблице
-        /// </summary>
-        private int GetCountOfFilledCells(int columnIndex)
-        {
-            int count = 0;
-            for (int i = 0; i < dataGridView1.RowCount; i++)
-            {
-                if (dataGridView1[columnIndex, i].Value != null &&
-                    dataGridView1[columnIndex, i].Value.ToString() != String.Empty)
-                    count++;
-            }
-            return count;
-        }
-        /// <summary>
-        /// Метод загрузки таблицы
-        /// </summary>
-        public void Load_dataGridView()
-        {
-            try
-            {
-                if (npgSqlConnection != null && npgSqlConnection.State != ConnectionState.Closed)
-                {
-                    npgSqlConnection.Close();
-                }
-                npgSqlConnection = new NpgsqlConnection(connectionString);
-                npgSqlConnection.Open();
-
-                sqlCommand = new NpgsqlCommand(sql, npgSqlConnection);
-                dataReader = sqlCommand.ExecuteReader();
-                dt = new DataTable();
-                dt.Load(dataReader);
-                dataGridView1.DataSource = dt;
-                dataGridView1.AutoResizeColumns();
-                
-                npgSqlConnection.Close();
-                label5.Text = "Всего заполненно " + GetCountOfFilledCells(0).ToString() + " строк";
-                dataGridView1.ReadOnly = true; 
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                npgSqlConnection.Close();
-            }
-        }
-        private void помощьДетскимСадамToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            label1.Text = "помощь детским садам";
-            command_sql_select();
-            Load_dataGridView();
-            button2.Text = "Добавить платёж";
-            button2.Visible = true;
-        }
-
-        private void помощьДетямToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            label1.Text = "помощь детям";
-            command_sql_select();
-            Load_dataGridView();
-            button2.Text = "Добавить платёж";
-            button2.Visible = true;
-        }
-       
-        /// <summary>
-        /// Команды для загрузки таблицы из бд
-        /// </summary>
-        public void command_sql_select()
-        {
-            if (label1.Text == "помощь детским садам")
-            {
-                sql = "SELECT  id_assistance as \"ID\",  caption as \"Детсад\",  \"type\" as \"Вид помощи\",  \"cost\" as \"Стоимость\",  \"date\" as \"Дата оказания\" FROM  \"Assistance to kindergarten\" INNER JOIN \"Kindergarten\" ON \"Assistance to kindergarten\".id_kindergarten = \"Kindergarten\".id_kindergarten  INNER JOIN \"Type of garden assistance\" ON \"Assistance to kindergarten\".id_type = \"Type of garden assistance\".id_type";
-            }
-            else if (label1.Text == "помощь детям")
-            {
-                sql = "SELECT  id_assistance as \"ID\",  concat_ws(' ',surname,\"Child\".\"name\",patronymic) as \"Ребёнок\",  \"type\" as \"Вид помощи\",  \"cost\" as \"Стоимость\",  \"date\" as \"Дата оказания\" FROM  \"Assistance to children\"  INNER JOIN \"Child\" ON \"Assistance to children\".id_child = \"Child\".id_child  INNER JOIN \"Type of children assistance\" ON \"Assistance to children\".id_type = \"Type of children assistance\".id_type";
-            }
-        }
-        /// <summary>
-        /// Команды для удаления из БД по ID
-        /// </summary>
-        private void command_sql_delete()
-        {
-            if (label1.Text == "помощь детским садам")
-            {
-                sql = "DELETE FROM \"Assistance to kindergarten\" WHERE id_assistance in (" + delete + ");";
-            }
-            else if (label1.Text == "помощь детям")
-            {
-                sql = "DELETE FROM \"Assistance to children\" WHERE id_assistance in (" + delete + ");";
-            }
-        }
-        /// <summary>
-        /// Команды для поиска в БД (сделать, чтобы искало по отделениям(чужие записи не показывать))
-        /// </summary>
-        string value_for_search = "";
-        private void command_sql_search()
-        {
-            value_for_search = textBox3.Text;
-            if (label1.Text == "помощь детским садам")
-            {
-                sql = "SELECT  id_assistance as \"ID\",  caption as \"Детсад\",  \"type\" as \"Вид помощи\",  \"cost\" as \"Стоимость\",  \"date\" as \"Дата оказания\",  \"name\" as \"Название предприятия\"  FROM  \"Assistance to kindergarten\"  INNER JOIN \"Kindergarten\" ON \"Assistance to kindergarten\".id_kindergarten = \"Kindergarten\".id_kindergarten  INNER JOIN \"Type of garden assistance\" ON \"Assistance to kindergarten\".id_type = \"Type of garden assistance\".id_type  INNER JOIN \"Company\" ON \"Assistance to kindergarten\".id_company = \"Company\".id_company WHERE type = '" + value_for_search + "' or \"Company\".name = '" + value_for_search + "'or caption = '" + value_for_search + "' ";
-            }
-            else if (label1.Text == "помощь детям")
-            {
-                sql = "SELECT  id_assistance as \"ID\",  concat_ws(' ',surname,\"Child\".\"name\",patronymic) as \"Ребёнок\",  \"type\" as \"Вид помощи\",  \"cost\" as \"Стоимость\",  \"date\" as \"Дата оказания\",  \"Company\".\"name\" as \"Название предприятия\"  FROM  \"Assistance to children\"  INNER JOIN \"Child\" ON \"Assistance to children\".id_child = \"Child\".id_child  INNER JOIN \"Type of children assistance\" ON \"Assistance to children\".id_type = \"Type of children assistance\".id_type  INNER JOIN \"Company\" ON \"Assistance to children\".id_company = \"Company\".id_company WHERE type = '" + value_for_search + "' or \"Company\".name = '" + value_for_search + "'or caption = '" + value_for_search + "' or \"Child\".name = '" + value_for_search + "' or surname = '" + value_for_search + "' or patronymic = '" + value_for_search + "'";
-            }
-        }
-        /// <summary>
-        /// Метод удаления записи по ID
-        /// </summary>
-        List<int> Selected = new List<int>();
-        string temp = ""; string delete = "";
-        private void delete_dataGridView()
-        {
-            foreach (DataGridViewCell cell in dataGridView1.SelectedCells)
-            {
-                if (cell.ColumnIndex == 0)
-                {
-                    Selected.Add((int)cell.Value);
-                }
-            }
-            foreach (int temp1 in Selected)
-            {
-                temp += temp1.ToString() + ",";
-            }
-            char[] MyChar = {','};
-            delete = temp.TrimEnd(MyChar);
-
-            command_sql_delete();
-            try
-            {
-                npgSqlConnection = new NpgsqlConnection(connectionString);
-                npgSqlConnection.Open();
-                sqlCommand = new NpgsqlCommand(sql, npgSqlConnection);
-                sqlCommand.ExecuteNonQuery();
-                npgSqlConnection.Close();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                npgSqlConnection.Close();
-            }
-            delete = "";
-            command_sql_select();
-            Load_dataGridView();
-        }
-        /// <summary>
-        /// Кнопка для поиска
-        /// </summary>
-        private void button4_Click(object sender, EventArgs e)
-        {
-            command_sql_search();
-            Load_dataGridView();
-            if(label5.Text == "Всего заполненно 0 строк") {
-                MessageBox.Show("Поиск не дал результата");
-                command_sql_select();
-                Load_dataGridView();
-            }
-            textBox3.Clear();
-        }
-        /// <summary>
-        /// Метод для добавления в таблицу(открытие новой формы, а там уже вся красота)
-        /// </summary>
-        private void dataGridView1_DoubleClick(object sender, EventArgs e)
-        {
-            string Name = label1.Text;
-            int selectedrowindex = dataGridView1.SelectedCells[0].RowIndex;
-            DataGridViewRow selectedRow = dataGridView1.Rows[selectedrowindex];
-            string id = Convert.ToString(selectedRow.Cells[0].Value);
-            Add_information add_information = new Add_information(Name, id, usersurname, userpassword);
-
-             if (Name == "помощь детским садам")
-            {
-                add_information.ID.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-                add_information.ComboBox1.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-                add_information.ComboBox2.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
-                add_information.TextBox1.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
-                add_information.DateTimePicker1.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
-            }
-            else if (Name == "помощь детям")
-            {
-                add_information.ID.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-                add_information.ComboBox1.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-                add_information.ComboBox2.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
-                add_information.TextBox1.Text = dataGridView1.CurrentRow.Cells[3].Value.ToString();
-                add_information.DateTimePicker1.Text = dataGridView1.CurrentRow.Cells[4].Value.ToString();
-            }
-            if (dataGridView1.CurrentRow.Cells[0].Value.ToString() != "")
-            {
-                add_information.button1.Text = "Изменить";
-            }
-            add_information.ShowDialog();
-        }
-        /// <summary>
-        /// Метод обновления базы данных
-        /// </summary>
-        private void label1_Click(object sender, EventArgs e)
-        {
-            command_sql_select();
-            Load_dataGridView();
-        }
-        /// <summary>
-        /// Удаление через кнопку Delete
-        /// </summary>
-        private void dataGridView1_UserDeletingRow(object sender, DataGridViewRowCancelEventArgs e)
-        {
-            if (MessageBox.Show("Вы действительно хотите удалить?", "Удаление", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.Cancel)
-            {
-                e.Cancel = true;
-                command_sql_select();
-                Load_dataGridView();
-            }
-            else
-            {
-                int selectedrowindex = dataGridView1.SelectedCells[0].RowIndex;
-                DataGridViewRow selectedRow = dataGridView1.Rows[selectedrowindex];
-                id = Convert.ToString(selectedRow.Cells[0].Value);
-                delete_dataGridView(); 
-            }
-            command_sql_select();
-            Load_dataGridView();
-        }
-        /// <summary>
-        /// Кнопка "Добавить запись в таблицу"(открытие новой формы)
-        /// </summary>
-        private void button2_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                string id;
-                int selectedrowindex = dataGridView1.SelectedCells[0].RowIndex;
-                DataGridViewRow selectedRow = dataGridView1.Rows[selectedrowindex];
-                id = Convert.ToString(selectedRow.Cells[0].Value);
-
-                string Name = label1.Text;
-                Add_information add_information = new Add_information(Name, id, usersurname, userpassword);
-                add_information.ShowDialog();
-            }
-            catch (Exception) { MessageBox.Show("Вы не выбрали таблицу"); }
-        }    
+        }  
         /// <summary>
         /// Генерация записей
         /// </summary>
@@ -290,7 +36,7 @@ namespace DataBase
             List<string> company_name = new List<string>() { "Новые горизонты", "Норд-Вест", "ОНМЦ", "Орбита+", "Орлан", "ОСТО МАИ", "Паритет", "Парсек", "Патриот", "Перспектива", "Пилигрим", "Пионер", "Победа", "Полина", "Политех", "Практика", "Престиж", "Приоритет", "Проспект", "ПРОФИ", "Пульс", "Развитие", "Рамдосааф", "РЕАЛ", "Форпост" };
             List<string> kemployee = new List<string>() { "Сотрудник_сада_1", "Сотрудник_сада_2", "Сотрудник_сада_3", "Сотрудник_сада_4", "Сотрудник_сада_5", "Сотрудник_сада_6", "Сотрудник_сада_7", "Сотрудник_сада_8", "Сотрудник_сада_9", "Сотрудник_сада_10", "Сотрудник_сада_11", "Сотрудник_сада_12", "Сотрудник_сада_13", "Сотрудник_сада_14", "Сотрудник_сада_15", "Сотрудник_сада_16", "Сотрудник_сада_17", "Сотрудник_сада_18", "Сотрудник_сада_19", "Сотрудник_сада_20", "Сотрудник_сада_21", "Сотрудник_сада_22", "Сотрудник_сада_23", "Сотрудник_сада_24", "Сотрудник_сада_25", "Сотрудник_сада_26", "Сотрудник_сада_27", "Сотрудник_сада_28", "Сотрудник_сада_29", "Сотрудник_сада_30", "Сотрудник_сада_31", "Сотрудник_сада_32", "Сотрудник_сада_33", "Сотрудник_сада_34", "Сотрудник_сада_35", "Сотрудник_сада_36", "Сотрудник_сада_37", "Сотрудник_сада_38", "Сотрудник_сада_39", "Сотрудник_сада_40", "Сотрудник_сада_41", "Сотрудник_сада_42", "Сотрудник_сада_43", "Сотрудник_сада_44", "Сотрудник_сада_45", "Сотрудник_сада_46", "Сотрудник_сада_47", "Сотрудник_сада_48", "Сотрудник_сада_49", "Сотрудник_сада_50", "Сотрудник_сада_51", "Сотрудник_сада_52", "Сотрудник_сада_53", "Сотрудник_сада_54", "Сотрудник_сада_55", "Сотрудник_сада_56", "Сотрудник_сада_57", "Сотрудник_сада_58", "Сотрудник_сада_59", "Сотрудник_сада_60", "Сотрудник_сада_61", "Сотрудник_сада_62", "Сотрудник_сада_63", "Сотрудник_сада_64", "Сотрудник_сада_65", "Сотрудник_сада_66", "Сотрудник_сада_67", "Сотрудник_сада_68", "Сотрудник_сада_69", "Сотрудник_сада_70", "Сотрудник_сада_71", "Сотрудник_сада_72", "Сотрудник_сада_73", "Сотрудник_сада_74", "Сотрудник_сада_75", "Сотрудник_сада_76", "Сотрудник_сада_77", "Сотрудник_сада_78", "Сотрудник_сада_79", "Сотрудник_сада_80", "Сотрудник_сада_81", "Сотрудник_сада_82", "Сотрудник_сада_83", "Сотрудник_сада_84", "Сотрудник_сада_85", "Сотрудник_сада_86", "Сотрудник_сада_87", "Сотрудник_сада_88", "Сотрудник_сада_89", "Сотрудник_сада_90", "Сотрудник_сада_91", "Сотрудник_сада_92", "Сотрудник_сада_93", "Сотрудник_сада_94", "Сотрудник_сада_95", "Сотрудник_сада_96", "Сотрудник_сада_97", "Сотрудник_сада_98", "Сотрудник_сада_99", "Сотрудник_сада_100" };
             List<string> cemployee = new List<string>() { "Сотрудник_предприятия_1", "Сотрудник_предприятия_2", "Сотрудник_предприятия_3", "Сотрудник_предприятия_4", "Сотрудник_предприятия_5", "Сотрудник_предприятия_6", "Сотрудник_предприятия_7", "Сотрудник_предприятия_8", "Сотрудник_предприятия_9", "Сотрудник_предприятия_10", "Сотрудник_предприятия_11", "Сотрудник_предприятия_12", "Сотрудник_предприятия_13", "Сотрудник_предприятия_14", "Сотрудник_предприятия_15", "Сотрудник_предприятия_16", "Сотрудник_предприятия_17", "Сотрудник_предприятия_18", "Сотрудник_предприятия_19", "Сотрудник_предприятия_20", "Сотрудник_предприятия_21", "Сотрудник_предприятия_22", "Сотрудник_предприятия_23", "Сотрудник_предприятия_24", "Сотрудник_предприятия_25", "Сотрудник_предприятия_26", "Сотрудник_предприятия_27", "Сотрудник_предприятия_28", "Сотрудник_предприятия_29", "Сотрудник_предприятия_30", "Сотрудник_предприятия_31", "Сотрудник_предприятия_32", "Сотрудник_предприятия_33", "Сотрудник_предприятия_34", "Сотрудник_предприятия_35", "Сотрудник_предприятия_36", "Сотрудник_предприятия_37", "Сотрудник_предприятия_38", "Сотрудник_предприятия_39", "Сотрудник_предприятия_40", "Сотрудник_предприятия_41", "Сотрудник_предприятия_42", "Сотрудник_предприятия_43", "Сотрудник_предприятия_44", "Сотрудник_предприятия_45", "Сотрудник_предприятия_46", "Сотрудник_предприятия_47", "Сотрудник_предприятия_48", "Сотрудник_предприятия_49", "Сотрудник_предприятия_50", "Сотрудник_предприятия_51", "Сотрудник_предприятия_52", "Сотрудник_предприятия_53", "Сотрудник_предприятия_54", "Сотрудник_предприятия_55", "Сотрудник_предприятия_56", "Сотрудник_предприятия_57", "Сотрудник_предприятия_58", "Сотрудник_предприятия_59", "Сотрудник_предприятия_60", "Сотрудник_предприятия_61", "Сотрудник_предприятия_62", "Сотрудник_предприятия_63", "Сотрудник_предприятия_64", "Сотрудник_предприятия_65", "Сотрудник_предприятия_66", "Сотрудник_предприятия_67", "Сотрудник_предприятия_68", "Сотрудник_предприятия_69", "Сотрудник_предприятия_70", "Сотрудник_предприятия_71", "Сотрудник_предприятия_72", "Сотрудник_предприятия_73", "Сотрудник_предприятия_74", "Сотрудник_предприятия_75", "Сотрудник_предприятия_76", "Сотрудник_предприятия_77", "Сотрудник_предприятия_78", "Сотрудник_предприятия_79", "Сотрудник_предприятия_80", "Сотрудник_предприятия_81", "Сотрудник_предприятия_82", "Сотрудник_предприятия_83", "Сотрудник_предприятия_84", "Сотрудник_предприятия_85", "Сотрудник_предприятия_86", "Сотрудник_предприятия_87", "Сотрудник_предприятия_88", "Сотрудник_предприятия_89", "Сотрудник_предприятия_90", "Сотрудник_предприятия_91", "Сотрудник_предприятия_92", "Сотрудник_предприятия_93", "Сотрудник_предприятия_94", "Сотрудник_предприятия_95", "Сотрудник_предприятия_96", "Сотрудник_предприятия_97", "Сотрудник_предприятия_98", "Сотрудник_предприятия_99", "Сотрудник_предприятия_100" };
-            if (label1.Text == "район")
+            if (comboBox1.Text == "район")
             {
                 npgSqlConnection = new NpgsqlConnection(connectionString);
                 npgSqlConnection.Open();
@@ -302,8 +48,6 @@ namespace DataBase
                             " VALUES('" + district[i] + "');", npgSqlConnection);
                         sqlCommand.ExecuteNonQuery();
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -312,7 +56,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "тип собственности")
+            if (comboBox1.Text == "тип собственности")
             {
                 npgSqlConnection = new NpgsqlConnection(connectionString);
                 npgSqlConnection.Open();
@@ -324,8 +68,6 @@ namespace DataBase
                             " VALUES('" + type_property[i] + "');", npgSqlConnection);
                         sqlCommand.ExecuteNonQuery();
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -334,7 +76,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "вид помощи садам")
+            if (comboBox1.Text == "вид помощи садам")
             {
                 npgSqlConnection = new NpgsqlConnection(connectionString);
                 npgSqlConnection.Open();
@@ -346,8 +88,6 @@ namespace DataBase
                             " VALUES('" + garden_assistance[i] + "');", npgSqlConnection);
                         sqlCommand.ExecuteNonQuery();
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -356,7 +96,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "форма собственности")
+            if (comboBox1.Text == "форма собственности")
             {
                 npgSqlConnection = new NpgsqlConnection(connectionString);
                 npgSqlConnection.Open();
@@ -368,8 +108,6 @@ namespace DataBase
                             " VALUES('" + type_ownership[i] + "');", npgSqlConnection);
                         sqlCommand.ExecuteNonQuery();
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -378,7 +116,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "вид помощи детям")
+            if (comboBox1.Text == "вид помощи детям")
             {
                 npgSqlConnection = new NpgsqlConnection(connectionString);
                 npgSqlConnection.Open();
@@ -390,8 +128,6 @@ namespace DataBase
                             " VALUES('" + children_assistance[i] + "');", npgSqlConnection);
                         sqlCommand.ExecuteNonQuery();
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -400,7 +136,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "группа")
+            if (comboBox1.Text == "группа")
             {
                 npgSqlConnection = new NpgsqlConnection(connectionString);
                 npgSqlConnection.Open();
@@ -412,8 +148,6 @@ namespace DataBase
                             " VALUES('" + group[i] + "');", npgSqlConnection);
                         sqlCommand.ExecuteNonQuery();
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -422,7 +156,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "детский сад")
+            if (comboBox1.Text == "детский сад")
             {
                 int t = 10; int year = 2000; int id_district = 1; int id_type = 1;
                 npgSqlConnection = new NpgsqlConnection(connectionString);
@@ -439,8 +173,6 @@ namespace DataBase
                         year++; if (year == 2021) { year = 2000; }
                         t++; if (t == 100) { t = 10; }
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -449,7 +181,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "предприятие")
+            if (comboBox1.Text == "предприятие")
             {
                 int t = 10; int employees = 50; int year = 1980; int id_type = 1;
                 npgSqlConnection = new NpgsqlConnection(connectionString);
@@ -466,8 +198,6 @@ namespace DataBase
                         year++; if (year == 2021) { year = 2000; }
                         employees += 13; if (employees > 200) { employees = 50; }
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -476,7 +206,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "сотрудник детского сада")
+            if (comboBox1.Text == "сотрудник детского сада")
             {
                 int id_kindergarten = 1;
                 npgSqlConnection = new NpgsqlConnection(connectionString);
@@ -493,8 +223,8 @@ namespace DataBase
                         sqlCommand.ExecuteNonQuery();
                        //id_kindergarten++; if (id_kindergarten == 26) { id_kindergarten = 1; }
                     }
-                    command_sql_select();
-                    Load_dataGridView();
+                    
+                    
                 }
                 catch (Exception ex)
                 {
@@ -503,7 +233,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "сотрудник предприятия")
+            if (comboBox1.Text == "сотрудник предприятия")
             {
                 int id_company = 1;
                 npgSqlConnection = new NpgsqlConnection(connectionString);
@@ -520,8 +250,6 @@ namespace DataBase
                         sqlCommand.ExecuteNonQuery();
                         //id_company++; if (id_company == 26) { id_company = 1; }
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -530,7 +258,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "ребёнок")
+            if (comboBox1.Text == "ребёнок")
             {
                 int id_group = 1; int id_kindergarten = 1;int day = 1; int month = 1; int year = 2015;
                 npgSqlConnection = new NpgsqlConnection(connectionString);
@@ -549,8 +277,6 @@ namespace DataBase
                         id_group++; if (id_group == 5) { id_group = 1; }
                         id_kindergarten++; if (id_kindergarten == 26) { id_kindergarten = 1; }
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -559,7 +285,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "помощь детским садам")
+            if (comboBox1.Text == "помощь детским садам")
             {
 
                 int day = 1; int month = 1; int year = 2015; int cost = 1000; int id_company = 1; int id_type = 1; int id_kindergarten = 1; 
@@ -580,8 +306,6 @@ namespace DataBase
                         year++; if (year == 2020) { year = 2015; }
                         cost += 300; if (cost >= 25000) { cost = 1000; }
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -590,7 +314,7 @@ namespace DataBase
                 npgSqlConnection.Close();
             }
 
-            if (label1.Text == "помощь детям")
+            if (comboBox1.Text == "помощь детям")
             {
 
                 int day = 1; int month = 1; int year = 2015; int cost = 1000; int id_company = 1; int id_type = 1; int id_child = 1;
@@ -611,8 +335,6 @@ namespace DataBase
                         year++; if (year == 2020) { year = 2015; }
                         cost += 300; if (cost >= 25000) { cost = 1000; }
                     }
-                    command_sql_select();
-                    Load_dataGridView();
                 }
                 catch (Exception ex)
                 {
@@ -620,18 +342,6 @@ namespace DataBase
                 }
                 npgSqlConnection.Close();
             }
-        }
-
-        private void DB_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Hide();
-            new Login().Show();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-            command_sql_select();
-            Load_dataGridView();
         }
         
     }             

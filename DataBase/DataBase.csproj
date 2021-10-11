@@ -69,67 +69,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add_information.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Add_information.Designer.cs">
-      <DependentUpon>Add_information.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Admin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Admin.Designer.cs">
-      <DependentUpon>Admin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Comp_employee.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Comp_employee.Designer.cs">
       <DependentUpon>Comp_employee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Graphics.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Graphics.Designer.cs">
-      <DependentUpon>Graphics.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Kind_employee.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Kind_employee.Designer.cs">
-      <DependentUpon>Kind_employee.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Querys.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Querys.Designer.cs">
-      <DependentUpon>Querys.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="Add_information.resx">
-      <DependentUpon>Add_information.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Admin.resx">
-      <DependentUpon>Admin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Comp_employee.resx">
       <DependentUpon>Comp_employee.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Graphics.resx">
-      <DependentUpon>Graphics.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Kind_employee.resx">
-      <DependentUpon>Kind_employee.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -140,9 +89,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Querys.resx">
-      <DependentUpon>Querys.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

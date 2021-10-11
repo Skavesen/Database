@@ -332,14 +332,8 @@ D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Прогр
 D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\Interop.VSTOEE100.dll
 D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\Interop.VSTOEE90.dll
 D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.csproj.ResolveComReference.cache
-D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Add_information.resources
-D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Admin.resources
 D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Comp_employee.resources
-D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Graphics.resources
-D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Kind_employee.resources
-D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Login.resources
 D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Properties.Resources.resources
-D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.Querys.resources
 D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.csproj.GenerateResource.Cache
 D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.exe
 D:\Универ\Курсачи\6 семестр\Дидур\Дидур\Программа\DataBase\obj\Debug\DataBase.pdb
